@@ -7,7 +7,7 @@ public class PKontener : Kontener, IHazardNotifier {
     private LiquidType liq;
 
     public PKontener(int height, int depth, double own_mass, double max_load, char type) :
-        base(height, depth, own_mass, max_load, "P") {
+        base(height, depth, own_mass, max_load, "L") {
         switch(type) {
             case 'd':
                 liq = LiquidType.Dangerous;
